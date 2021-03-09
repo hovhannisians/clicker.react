@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background: darkblue;
+}
+
+.App div button {
+      padding: 24px;
+      border: 0;
+      color: #fff;
+      background: none;
+      border: 1px solid #fff;
+      border-radius: 10px;
+      margin-top: 10px;
+      margin-right: 19px;
+      font-size: 19px;
+      font-weight: 900;
+      transition: 0.5s;
+}
+
+.App div button:hover {
+  outline: none;
+  background: #fff;
+  color: darkblue;
+  transition: 0.5s;
+}
+
+.App div button:focus {
+  outline: none;  
+}
+
+.App div h1 {
+ color: #fff;
+}
